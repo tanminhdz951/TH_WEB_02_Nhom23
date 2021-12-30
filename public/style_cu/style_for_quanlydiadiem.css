@@ -1,0 +1,15 @@
+.container-fluid {
+    font-size: 15px;
+}
+
+.row {
+    text-align: center;
+}
+
+.card {
+    display: inline-block
+}
+
+.card .body {
+    text-align: left;
+}

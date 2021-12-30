@@ -1,0 +1,96 @@
+.content_all {
+    text-align: center;
+    width: 100%;
+}
+
+.content {
+    display: inline-block;
+    width: 90%;
+}
+
+.content .row {
+    width: 100%;
+}
+
+.content .row .col-lg-12 {
+    border-radius: 50px;
+}
+
+.panel-default {
+    font-size: 15px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 2px 9px 2px rgba(0, 0, 0, 0.1);
+}
+
+.col-md-6 {
+    margin-left: 10%;
+    width: 80%;
+}
+
+.form-TT {
+    display: flex;
+}
+
+.form-TT .form-group {
+    width: 40%;
+    padding-right: 2%;
+}
+
+.content_all {
+    text-align: center;
+    width: 100%;
+}
+
+.content {
+    display: inline-block;
+    width: 90%;
+}
+
+.content .row {
+    width: 100%;
+}
+
+.content .row .col-lg-12 {
+    border-radius: 50px;
+}
+
+.panel-default {
+    font-size: 15px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 2px 9px 2px rgba(0, 0, 0, 0.1);
+}
+
+.col-md-6 {
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+}
+
+.form-TT {
+    display: flex;
+}
+
+.form-TT .form-group {
+    width: 40%;
+    padding-right: 2%;
+}
+
+.main_left {
+    width: 50%;
+    background: red;
+}
+
+.main_right {
+    width: 50%;
+    height: 100px;
+    background: rgb(5, 0, 0);
+}
+
+.main_left .khung_qr {
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 70%;
+    margin-left: 20%
+}

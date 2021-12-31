@@ -21,7 +21,6 @@
             $values = ':'.implode(", :", array_keys($data)) ;
             $sql = "INSERT INTO $table($keys) VALUES($values)";
             $statement = $this->prepare($sql);
-
             foreach($data as $key => $value){
                 $statement->bindValue($key,$value);
             }

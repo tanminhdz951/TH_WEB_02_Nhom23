@@ -2,6 +2,7 @@
 $(document).ready(function() {
     $('#district').change(function() {
         var mqh =document.getElementById('district').value
+       
         $.ajax({
             url: "data_phuong.php",
             dataType: "json",

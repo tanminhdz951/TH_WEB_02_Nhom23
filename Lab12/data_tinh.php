@@ -1,5 +1,5 @@
 <?php
-include "DModel.php";
+include 'connect.php';
 $stmt = $connect->prepare("select * from devvn_quanhuyen");
 $stmt->execute();
 $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
